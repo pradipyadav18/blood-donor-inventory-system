@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fcefee;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.app-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header h1 { color: #b91c1c; }
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background: #b91c1c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+button:hover { background: #991b1b; }
+.donor-list {
+    list-style: none;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.donor-list li {
+    background: #fdf2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-left: 4px solid #b91c1c;
+    border-radius: 4px;
+}
